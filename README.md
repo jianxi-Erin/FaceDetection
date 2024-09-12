@@ -29,7 +29,7 @@
 在终端中运行以下命令来启动程序：
 
 ```bash
-python your_script.py --mode <模式> --index <索引>
+python FaceDetection.py --mode <模式> --index <索引>
 ```
 
 其中：
@@ -46,13 +46,13 @@ python your_script.py --mode <模式> --index <索引>
 1. **相机模式**（使用默认摄像头）：
 
    ```bash
-   python your_script.py --mode c --index 0
+   python FaceDetection.py --mode c --index 0
    ```
 
 2. **视频模式**（使用本地视频文件）：
 
    ```bash
-   python your_script.py --mode v --index path/to/your/video.mp4
+   python FaceDetection.py --mode v --index path/to/your/video.mp4
    ```
 
 ### 退出程序
